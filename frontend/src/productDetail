@@ -1,0 +1,297 @@
+export const dummyData = {
+   
+     'papad-chivda': {
+    name: "Papad Chivda",
+    price: 5,
+    imageUrl: '/images/namkeen/papadChivda.png',
+    reviews: [
+      { user: "Ravi", rating: 4, comment: "Tasty and fresh!" },
+      { user: "Meena", rating: 5, comment: "Good quality." },
+    ],
+  },
+  'sakkarpara': {
+    name: "Sakkarpara",
+    price: 5,
+    imageUrl: '/images/namkeen/sakkarpara.png',
+    reviews: [
+      { user: "Amit", rating: 4, comment: "Sweet and crispy!" },
+      { user: "Divya", rating: 5, comment: "Perfect snack with tea." },
+    ],
+  },
+  'tikhi-sev': {
+    name: "Tikhi Sev",
+    price: 5,
+    imageUrl: '/images/namkeen/tikhiSev.png',
+    reviews: [
+      { user: "Pooja", rating: 5, comment: "Loved the spice level!" },
+      { user: "Arjun", rating: 4, comment: "Nice and crunchy." },
+    ],
+  },
+  'aloo-sev': {
+    name: "Aloo Sev",
+    price: 5,
+    imageUrl: '/images/namkeen/alooSev.png',
+    reviews: [
+      { user: "Sonal", rating: 4, comment: "Classic taste." },
+      { user: "Jay", rating: 5, comment: "Crunchy and fresh." },
+    ],
+  },
+  'sev-bundi': {
+    name: "Sev Bundi",
+    price: 5,
+    imageUrl: '/images/namkeen/sevBondi.png',
+    reviews: [
+      { user: "Manav", rating: 4, comment: "Nice combo mix!" },
+      { user: "Neha", rating: 5, comment: "Love it with curd!" },
+    ],
+  },
+  'magic-puri': {
+    name: "Magic Puri",
+    price: 5,
+    imageUrl: '/images/namkeen/magicPuri.png',
+    reviews: [
+      { user: "Rani", rating: 5, comment: "My kids love it!" },
+      { user: "Kishan", rating: 4, comment: "Good with chutney." },
+    ],
+  },
+  'masala-vatana': {
+    name: "Masala Vatana",
+    price: 5,
+    imageUrl: '/images/namkeen/masalaVatana.png',
+    reviews: [
+      { user: "Simran", rating: 5, comment: "Very spicy and good." },
+      { user: "Yusuf", rating: 4, comment: "Great flavor." },
+    ],
+  },
+  'masala-sev-mamra': {
+    name: "Masala Sev Mamra",
+    price: 5,
+    imageUrl: '/images/namkeen/masalaSevMamra.png',
+    reviews: [
+      { user: "Karan", rating: 4, comment: "Crunchy and fresh." },
+      { user: "Deepika", rating: 5, comment: "Perfect tea snack." },
+    ],
+  },
+  'moong-dal': {
+    name: "Moong Dal",
+    price: 5,
+    imageUrl: '/images/namkeen/moongDal.png',
+    reviews: [
+      { user: "Nikhil", rating: 4, comment: "Always a go-to." },
+      { user: "Kriti", rating: 4, comment: "Fresh and tasty." },
+    ],
+  },
+  'punjabi-tadka': {
+    name: "Punjabi Tadka",
+    price: 5,
+    imageUrl: '/images/namkeen/punjabiTadka.png',
+    reviews: [
+      { user: "Vishal", rating: 5, comment: "Strong flavor!" },
+      { user: "Neetu", rating: 4, comment: "Good with drinks." },
+    ],
+  },
+  'naylon-chevdo': {
+    name: "Naylon Chevdo",
+    price: 5,
+    imageUrl: '/images/namkeen/naylonChevda.png',
+    reviews: [
+      { user: "Rajesh", rating: 4, comment: "Light and crispy." },
+      { user: "Bhavna", rating: 5, comment: "Perfectly fried." },
+    ],
+  },
+
+  // Fryums
+  'chiji-noodles': {
+    name: "Chiji Noodles",
+    price: 5,
+    imageUrl: '/images/fryums/chijiNoodles.png',
+    reviews: [
+      { user: "Anita", rating: 4, comment: "Kids love it!" },
+      { user: "Rakesh", rating: 5, comment: "Crispy and spicy." },
+    ],
+  },
+  'chinese-chilli-pipe': {
+    name: "Chinese Chilli Pipe",
+    price: 5,
+    imageUrl: '/images/fryums/chineseChilliPipe.png',
+    reviews: [
+      { user: "Pooja", rating: 4, comment: "Perfect with chai!" },
+      { user: "Sameer", rating: 5, comment: "Great texture and taste." },
+    ],
+  },
+  'funny-animals': {
+    name: "Funny Animals",
+    price: 5,
+    imageUrl: '/images/fryums/funnyAnimals.png',
+    reviews: [
+      { user: "Dev", rating: 5, comment: "Fun and crunchy!" },
+      { user: "Kajal", rating: 4, comment: "Great for kids." },
+    ],
+  },
+  'sago-ball': {
+    name: "Sago Ball",
+    price: 5,
+    imageUrl: '/images/fryums/sagoBall.png',
+    reviews: [
+      { user: "Ravi", rating: 3, comment: "A bit bland." },
+      { user: "Nikita", rating: 4, comment: "Goes well with ketchup." },
+    ],
+  },
+  'chokadi': {
+    name: "Chokadi",
+    price: 5,
+    imageUrl: '/images/fryums/chokadi.png',
+    reviews: [
+      { user: "Meena", rating: 4, comment: "Unique and flavorful." },
+      { user: "Arun", rating: 5, comment: "Loved the crunch!" },
+    ],
+  },
+  'masala-moon-chips': {
+    name: "Masala Moon Chips",
+    price: 5,
+    imageUrl: '/images/fryums/masalaMoonChips.png',
+    reviews: [
+      { user: "Jyoti", rating: 5, comment: "Perfect spice blend!" },
+      { user: "Neeraj", rating: 4, comment: "Crispy and delicious." },
+    ],
+  },
+  'pasta-style-snacks': {
+    name: "Pasta Style Snacks",
+    price: 5,
+    imageUrl: '/images/fryums/pastaStyleSnacks.png',
+    reviews: [
+      { user: "Sahil", rating: 5, comment: "Looks cool, tastes better!" },
+      { user: "Ayesha", rating: 4, comment: "Fun to eat." },
+    ],
+  },
+  'pop-corn': {
+    name: "Pop Corn",
+    price: 5,
+    imageUrl: '/images/fryums/popCorn.png',
+    reviews: [
+      { user: "Deepa", rating: 4, comment: "Nice snack for movie night." },
+      { user: "Imran", rating: 5, comment: "Crispy and addictive." },
+    ],
+  },
+  'masala-moon-tomato': {
+    name: "Masala Moon Tomato",
+    price: 5,
+    imageUrl: '/images/fryums/masalaMoonTomato.png',
+    reviews: [
+      { user: "Priya", rating: 4, comment: "Tangy and tasty." },
+      { user: "Rohan", rating: 5, comment: "Great tomato flavor!" },
+    ],
+  },
+  'salted-crunchy-pipes': {
+    name: "Salted Crunchy Pipes",
+    price: 5,
+    imageUrl: '/images/fryums/saltedCrunchyPipes.png',
+    reviews: [
+      { user: "Sunita", rating: 3, comment: "Needs more spice." },
+      { user: "Amit", rating: 4, comment: "Simple and good." },
+    ],
+  },
+  'plane': {
+    name: "Plane",
+    price: 5,
+    imageUrl: '/images/fryums/plane.png',
+    reviews: [
+      { user: "Harsh", rating: 4, comment: "Great for dipping." },
+      { user: "Manisha", rating: 3, comment: "Plain but fresh." },
+    ],
+  },
+  'white-crunchy-papad': {
+    name: "White Crunchy Papad",
+    price: 5,
+    imageUrl: '/images/fryums/whiteCrunchyPapad.png',
+    reviews: [
+      { user: "Raj", rating: 5, comment: "Super crunchy!" },
+      { user: "Lata", rating: 4, comment: "Perfectly roasted." },
+    ],
+  },
+  'softi-triangle': {
+    name: "Softi Triangle",
+    price: 5,
+    imageUrl: '/images/fryums/softiTriangle.png',
+    reviews: [
+      { user: "Sneha", rating: 5, comment: "Kids' favorite!" },
+      { user: "Jatin", rating: 4, comment: "Nice shape and taste." },
+    ],
+  },
+  'moon-chips-tomato': {
+    name: "Moon Chips Tomato",
+    price: 5,
+    imageUrl: '/images/fryums/moonChipsTomato.png',
+    reviews: [
+      { user: "Anjali", rating: 4, comment: "Tangy goodness." },
+      { user: "Parth", rating: 5, comment: "Excellent flavor burst!" },
+    ],
+  },
+
+//   Chips
+
+'cream-n-onion': {
+    name: "Cream 'n' Onion",
+    price: 5,
+    imageUrl: '/images/chips/creamNOnion.png',
+    reviews: [
+      { user: "Aarti", rating: 5, comment: "Creamy and flavorful!" },
+      { user: "Kunal", rating: 4, comment: "Loved the texture." },
+    ],
+  },
+  'magic-masala': {
+    name: "Magic Masala",
+    price: 5,
+    imageUrl: '/images/chips/magicMasala.png',
+    reviews: [
+      { user: "Rahul", rating: 5, comment: "Perfect masala punch!" },
+      { user: "Sneha", rating: 4, comment: "Spicy and addictive." },
+    ],
+  },
+  'piri-piri': {
+    name: "Piri Piri",
+    price: 5,
+    imageUrl: '/images/chips/piriPiri.png',
+    reviews: [
+      { user: "Nisha", rating: 5, comment: "Hot and tangy!" },
+      { user: "Aman", rating: 4, comment: "Nice heat level." },
+    ],
+  },
+  'plain-salted': {
+    name: "Plain Salted",
+    price: 5,
+    imageUrl: '/images/chips/plainSalted.png',
+    reviews: [
+      { user: "Ravi", rating: 4, comment: "Simple and classic." },
+      { user: "Isha", rating: 5, comment: "Always a favorite." },
+    ],
+  },
+  'spicy-treat': {
+    name: "Spicy Treat",
+    price: 5,
+    imageUrl: '/images/chips/spicyTreat.png',
+    reviews: [
+      { user: "Tina", rating: 5, comment: "Full of flavor!" },
+      { user: "Vikas", rating: 4, comment: "Bold and tasty." },
+    ],
+  },
+  'tom-chi': {
+    name: "Tom-Chi",
+    price: 5,
+    imageUrl: '/images/chips/tomChi.png',
+    reviews: [
+      { user: "Gaurav", rating: 5, comment: "Great tomato zing!" },
+      { user: "Kirti", rating: 4, comment: "Yummy and crisp." },
+    ],
+  },
+  'upvas-special-wafers': {
+    name: "Upvas Special Wafers",
+    price: 5,
+    imageUrl: '/images/chips/upvasSpecialWafers.png',
+    reviews: [
+      { user: "Rekha", rating: 5, comment: "Perfect for fasting!" },
+      { user: "Suresh", rating: 4, comment: "Light and satisfying." },
+    ],
+  }
+
+};
