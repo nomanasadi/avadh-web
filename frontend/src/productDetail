@@ -1,297 +1,374 @@
 export const dummyData = {
    
      'papad-chivda': {
-    name: "Papad Chivda",
-    price: 5,
-    imageUrl: '/images/namkeen/papadChivda.png',
-    reviews: [
-      { user: "Ravi", rating: 4, comment: "Tasty and fresh!" },
-      { user: "Meena", rating: 5, comment: "Good quality." },
-    ],
-  },
-  'sakkarpara': {
-    name: "Sakkarpara",
-    price: 5,
-    imageUrl: '/images/namkeen/sakkarpara.png',
-    reviews: [
-      { user: "Amit", rating: 4, comment: "Sweet and crispy!" },
-      { user: "Divya", rating: 5, comment: "Perfect snack with tea." },
-    ],
-  },
-  'tikhi-sev': {
-    name: "Tikhi Sev",
-    price: 5,
-    imageUrl: '/images/namkeen/tikhiSev.png',
-    reviews: [
-      { user: "Pooja", rating: 5, comment: "Loved the spice level!" },
-      { user: "Arjun", rating: 4, comment: "Nice and crunchy." },
-    ],
-  },
-  'aloo-sev': {
-    name: "Aloo Sev",
-    price: 5,
-    imageUrl: '/images/namkeen/alooSev.png',
-    reviews: [
-      { user: "Sonal", rating: 4, comment: "Classic taste." },
-      { user: "Jay", rating: 5, comment: "Crunchy and fresh." },
-    ],
-  },
-  'sev-bundi': {
-    name: "Sev Bundi",
-    price: 5,
-    imageUrl: '/images/namkeen/sevBondi.png',
-    reviews: [
-      { user: "Manav", rating: 4, comment: "Nice combo mix!" },
-      { user: "Neha", rating: 5, comment: "Love it with curd!" },
-    ],
-  },
-  'magic-puri': {
-    name: "Magic Puri",
-    price: 5,
-    imageUrl: '/images/namkeen/magicPuri.png',
-    reviews: [
-      { user: "Rani", rating: 5, comment: "My kids love it!" },
-      { user: "Kishan", rating: 4, comment: "Good with chutney." },
-    ],
-  },
-  'masala-vatana': {
-    name: "Masala Vatana",
-    price: 5,
-    imageUrl: '/images/namkeen/masalaVatana.png',
-    reviews: [
-      { user: "Simran", rating: 5, comment: "Very spicy and good." },
-      { user: "Yusuf", rating: 4, comment: "Great flavor." },
-    ],
-  },
-  'masala-sev-mamra': {
-    name: "Masala Sev Mamra",
-    price: 5,
-    imageUrl: '/images/namkeen/masalaSevMamra.png',
-    reviews: [
-      { user: "Karan", rating: 4, comment: "Crunchy and fresh." },
-      { user: "Deepika", rating: 5, comment: "Perfect tea snack." },
-    ],
-  },
-  'moong-dal': {
-    name: "Moong Dal",
-    price: 5,
-    imageUrl: '/images/namkeen/moongDal.png',
-    reviews: [
-      { user: "Nikhil", rating: 4, comment: "Always a go-to." },
-      { user: "Kriti", rating: 4, comment: "Fresh and tasty." },
-    ],
-  },
-  'punjabi-tadka': {
-    name: "Punjabi Tadka",
-    price: 5,
-    imageUrl: '/images/namkeen/punjabiTadka.png',
-    reviews: [
-      { user: "Vishal", rating: 5, comment: "Strong flavor!" },
-      { user: "Neetu", rating: 4, comment: "Good with drinks." },
-    ],
-  },
-  'naylon-chevdo': {
-    name: "Naylon Chevdo",
-    price: 5,
-    imageUrl: '/images/namkeen/naylonChevda.png',
-    reviews: [
-      { user: "Rajesh", rating: 4, comment: "Light and crispy." },
-      { user: "Bhavna", rating: 5, comment: "Perfectly fried." },
-    ],
-  },
+  name: "Papad Chivda",
+  price: 5,
+  imageUrl: '/images/namkeen/papadChivda.png',
+  description: "Crispy blend of crushed papads and spicy chivda. Ideal for snacking. Pack size: 200g.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition",
+  reviews: [
+    { user: "Rita S.", rating: 5, comment: "Loved the crunch and spice balance. Perfect snack!" },
+    { user: "Manish K.", rating: 4, comment: "Good taste but a bit salty for me." },
+    { user: "Sneha P.", rating: 5, comment: "Fresh and tasty. Bought multiple times already." }
+  ]
+},
+'sakkarpara': {
+  name: "Sakkarpara",
+  price: 5,
+  imageUrl: '/images/namkeen/sakkarpara.png',
+  description: "Sweet diamond-shaped bites made from flour and sugar. 250g pack, perfect for tea-time.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Anil J.", rating: 5, comment: "Sweetness just right. Great with chai!" },
+    { user: "Pooja M.", rating: 4, comment: "Crunchy and fresh, but could use a hint of cardamom." }
+  ]
+},
+'tikhi-sev': {
+  name: "Tikhi Sev",
+  price: 5,
+  imageUrl: '/images/namkeen/tikhiSev.png',
+  description: "Spicy and crunchy gram flour sticks. Great as toppings or solo snack. 200g pouch.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Vikram D.", rating: 5, comment: "Perfect spicy sev, nice heat level." },
+    { user: "Leena R.", rating: 4, comment: "Really tasty, but a bit oily." }
+  ]
+},
+'aloo-sev': {
+  name: "Aloo Sev",
+  price: 5,
+  imageUrl: '/images/namkeen/alooSev.png',
+  description: "Crispy potato-based sev with mild spices. Light and addictive. Pack size: 200g.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Suresh P.", rating: 5, comment: "My favorite sev! Light and flavorful." },
+    { user: "Kavita T.", rating: 4, comment: "Good texture but could be a little spicier." }
+  ]
+},
+'sev-bundi': {
+  name: "Sev Bundi",
+  price: 5,
+  imageUrl: '/images/namkeen/sevBondi.png',
+  description: "Combo of small fried gram flour balls and sev. Best with curd or raita. 250g pack.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Rakesh V.", rating: 5, comment: "Great mix, excellent as a raita topping!" },
+    { user: "Anjali S.", rating: 4, comment: "Good taste, but wished for less oil." }
+  ]
+},
+'magic-puri': {
+  name: "Magic Puri",
+  price: 5,
+  imageUrl: '/images/namkeen/magicPuri.png',
+  description: "Mini puris with a masala twist. Crunchy and flavorful. Comes in a 180g pack.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Nikhil M.", rating: 5, comment: "Perfect crunch and flavor. Kids love it!" },
+    { user: "Divya R.", rating: 4, comment: "Tasty but slightly spicy for me." }
+  ]
+},
+'masala-vatana': {
+  name: "Masala Vatana",
+  price: 5,
+  imageUrl: '/images/namkeen/masalaVatana.png',
+  description: "Spicy fried green peas. High protein snack in a 150g resealable pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Sanjay K.", rating: 5, comment: "Crunchy and spicy, healthy too!" },
+    { user: "Ritu P.", rating: 4, comment: "Great snack but could be a bit saltier." }
+  ]
+},
+'masala-sev-mamra': {
+  name: "Masala Sev Mamra",
+  price: 5,
+  imageUrl: '/images/namkeen/masalaSevMamra.png',
+  description: "Flavored puffed rice with sev. Light and crunchy, 250g family pack.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Harsh G.", rating: 5, comment: "Perfect mix of flavors and crunch!" },
+    { user: "Meena D.", rating: 4, comment: "Very tasty, would buy again." }
+  ]
+},
+'moong-dal': {
+  name: "Moong Dal",
+  price: 5,
+  imageUrl: '/images/namkeen/moongDal.png',
+  description: "Golden fried split green gram. Classic snack in 200g pack.",
+  reviews: [
+    { user: "Ajay T.", rating: 5, comment: "Classic and crunchy, reminds me of childhood!" },
+    { user: "Sheetal B.", rating: 4, comment: "Nice snack, a little oily though." }
+  ]
+},
+'punjabi-tadka': {
+  name: "Punjabi Tadka",
+  price: 5,
+  imageUrl: '/images/namkeen/punjabiTadka.png',
+  description: "Robust masala mix with bold flavors. Perfect with beverages. 200g pack.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Rajesh M.", rating: 5, comment: "Bold and tasty, great party snack!" },
+    { user: "Simran K.", rating: 4, comment: "Good flavor, but a bit spicy for me." }
+  ]
+},
+'naylon-chevdo': {
+  name: "Naylon Chevdo",
+  price: 5,
+  imageUrl: '/images/namkeen/naylonChevda.png',
+  description: "Fine, crispy rice flakes blended with nuts and spices. 250g.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Vivek S.", rating: 5, comment: "Light, crunchy, and flavorful." },
+    { user: "Nisha A.", rating: 4, comment: "Really good but could use more nuts." }
+  ]
+},
+
 
   // Fryums
-  'chiji-noodles': {
-    name: "Chiji Noodles",
-    price: 5,
-    imageUrl: '/images/fryums/chijiNoodles.png',
-    reviews: [
-      { user: "Anita", rating: 4, comment: "Kids love it!" },
-      { user: "Rakesh", rating: 5, comment: "Crispy and spicy." },
-    ],
-  },
-  'chinese-chilli-pipe': {
-    name: "Chinese Chilli Pipe",
-    price: 5,
-    imageUrl: '/images/fryums/chineseChilliPipe.png',
-    reviews: [
-      { user: "Pooja", rating: 4, comment: "Perfect with chai!" },
-      { user: "Sameer", rating: 5, comment: "Great texture and taste." },
-    ],
-  },
-  'funny-animals': {
-    name: "Funny Animals",
-    price: 5,
-    imageUrl: '/images/fryums/funnyAnimals.png',
-    reviews: [
-      { user: "Dev", rating: 5, comment: "Fun and crunchy!" },
-      { user: "Kajal", rating: 4, comment: "Great for kids." },
-    ],
-  },
-  'sago-ball': {
-    name: "Sago Ball",
-    price: 5,
-    imageUrl: '/images/fryums/sagoBall.png',
-    reviews: [
-      { user: "Ravi", rating: 3, comment: "A bit bland." },
-      { user: "Nikita", rating: 4, comment: "Goes well with ketchup." },
-    ],
-  },
-  'chokadi': {
-    name: "Chokadi",
-    price: 5,
-    imageUrl: '/images/fryums/chokadi.png',
-    reviews: [
-      { user: "Meena", rating: 4, comment: "Unique and flavorful." },
-      { user: "Arun", rating: 5, comment: "Loved the crunch!" },
-    ],
-  },
-  'masala-moon-chips': {
-    name: "Masala Moon Chips",
-    price: 5,
-    imageUrl: '/images/fryums/masalaMoonChips.png',
-    reviews: [
-      { user: "Jyoti", rating: 5, comment: "Perfect spice blend!" },
-      { user: "Neeraj", rating: 4, comment: "Crispy and delicious." },
-    ],
-  },
-  'pasta-style-snacks': {
-    name: "Pasta Style Snacks",
-    price: 5,
-    imageUrl: '/images/fryums/pastaStyleSnacks.png',
-    reviews: [
-      { user: "Sahil", rating: 5, comment: "Looks cool, tastes better!" },
-      { user: "Ayesha", rating: 4, comment: "Fun to eat." },
-    ],
-  },
-  'pop-corn': {
-    name: "Pop Corn",
-    price: 5,
-    imageUrl: '/images/fryums/popCorn.png',
-    reviews: [
-      { user: "Deepa", rating: 4, comment: "Nice snack for movie night." },
-      { user: "Imran", rating: 5, comment: "Crispy and addictive." },
-    ],
-  },
-  'masala-moon-tomato': {
-    name: "Masala Moon Tomato",
-    price: 5,
-    imageUrl: '/images/fryums/masalaMoonTomato.png',
-    reviews: [
-      { user: "Priya", rating: 4, comment: "Tangy and tasty." },
-      { user: "Rohan", rating: 5, comment: "Great tomato flavor!" },
-    ],
-  },
-  'salted-crunchy-pipes': {
-    name: "Salted Crunchy Pipes",
-    price: 5,
-    imageUrl: '/images/fryums/saltedCrunchyPipes.png',
-    reviews: [
-      { user: "Sunita", rating: 3, comment: "Needs more spice." },
-      { user: "Amit", rating: 4, comment: "Simple and good." },
-    ],
-  },
-  'plane': {
-    name: "Plane",
-    price: 5,
-    imageUrl: '/images/fryums/plane.png',
-    reviews: [
-      { user: "Harsh", rating: 4, comment: "Great for dipping." },
-      { user: "Manisha", rating: 3, comment: "Plain but fresh." },
-    ],
-  },
-  'white-crunchy-papad': {
-    name: "White Crunchy Papad",
-    price: 5,
-    imageUrl: '/images/fryums/whiteCrunchyPapad.png',
-    reviews: [
-      { user: "Raj", rating: 5, comment: "Super crunchy!" },
-      { user: "Lata", rating: 4, comment: "Perfectly roasted." },
-    ],
-  },
-  'softi-triangle': {
-    name: "Softi Triangle",
-    price: 5,
-    imageUrl: '/images/fryums/softiTriangle.png',
-    reviews: [
-      { user: "Sneha", rating: 5, comment: "Kids' favorite!" },
-      { user: "Jatin", rating: 4, comment: "Nice shape and taste." },
-    ],
-  },
-  'moon-chips-tomato': {
-    name: "Moon Chips Tomato",
-    price: 5,
-    imageUrl: '/images/fryums/moonChipsTomato.png',
-    reviews: [
-      { user: "Anjali", rating: 4, comment: "Tangy goodness." },
-      { user: "Parth", rating: 5, comment: "Excellent flavor burst!" },
-    ],
-  },
+ 'chiji-noodles': {
+  name: "Chiji Noodles",
+  price: 5,
+  imageUrl: '/images/fryums/chijiNoodles.png',
+  description: "Noodle-shaped fryums, ready to fry or microwave. 100g per pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Neha R.", rating: 5, comment: "Perfect noodle shape, fries up crunchy every time!" },
+    { user: "Amit S.", rating: 4, comment: "Good taste but a bit plain, like to add some seasoning." },
+    { user: "Rekha M.", rating: 5, comment: "Kids love these! Fun and tasty." }
+  ]
+},
+'chinese-chilli-pipe': {
+  name: "Chinese Chilli Pipe",
+  price: 5,
+  imageUrl: '/images/fryums/chineseChilliPipe.png',
+  description: "Hollow chilli-shaped fryums with spicy masala coating. 100g vacuum sealed.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Raj P.", rating: 5, comment: "Spicy and crunchy, just the right kick!" },
+    { user: "Sunita L.", rating: 4, comment: "Great flavor but slightly oily." },
+    { user: "Karan J.", rating: 5, comment: "Perfect snack for spicy food lovers." }
+  ]
+},
+'funny-animals': {
+  name: "Funny Animals",
+  price: 5,
+  imageUrl: '/images/fryums/funnyAnimals.png',
+  description: "Animal-shaped fryums that puff up when fried. Great for kids. 100g pack.",
+  reviews: [
+    { user: "Meera D.", rating: 5, comment: "Fun shapes and delicious taste — my kids adore these." },
+    { user: "Vikram K.", rating: 4, comment: "Nice snack but could be crispier." },
+    { user: "Priya S.", rating: 5, comment: "Perfect for parties and kids’ snacks." }
+  ]
+},
+'sago-ball': {
+  name: "Sago Ball",
+  price: 5,
+  imageUrl: '/images/fryums/sagoBall.png',
+  description: "Puffed sago balls, mild in flavor. Ready-to-fry. 120g.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Rohit M.", rating: 5, comment: "Light and crunchy, just like homemade!" },
+    { user: "Anita G.", rating: 4, comment: "Nice flavor, a bit too mild for me." },
+    { user: "Harish T.", rating: 5, comment: "Great snack for any time of the day." }
+  ]
+},
+'chokadi': {
+  name: "Chokadi",
+  price: 5,
+  imageUrl: '/images/fryums/chokadi.png',
+  description: "Star-like fryums with rich crunch. Fry fresh at home. 100g pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Sheetal R.", rating: 5, comment: "Very crunchy and addictive!" },
+    { user: "Nitin V.", rating: 4, comment: "Good taste, would love a bigger pack." },
+    { user: "Deepa J.", rating: 5, comment: "Perfect fryums for snacking with tea." }
+  ]
+},
+'masala-moon-chips': {
+  name: "Masala Moon Chips",
+  price: 5,
+  imageUrl: '/images/fryums/masalaMoonChips.png',
+  description: "Moon-shaped fryums with zesty masala. Great for munching. 100g pouch.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Ajay K.", rating: 5, comment: "Perfect masala flavor and crunch!" },
+    { user: "Rina S.", rating: 4, comment: "Good but slightly spicy for kids." },
+    { user: "Manoj T.", rating: 5, comment: "One of my favorites for evening snacks." }
+  ]
+},
+'pasta-style-snacks': {
+  name: "Pasta Style Snacks",
+  price: 5,
+  imageUrl: '/images/fryums/pastaStyleSnacks.png',
+  description: "Twisted pasta-style fryums, fun to eat. Comes in 100g packaging.",
+  reviews: [
+    { user: "Sonal P.", rating: 5, comment: "Fun shape and delicious flavor." },
+    { user: "Vivek M.", rating: 4, comment: "Great snack but a bit oily." },
+    { user: "Kriti J.", rating: 5, comment: "Kids loved the shape and crunch!" }
+  ]
+},
+'pop-corn': {
+  name: "Pop Corn",
+  price: 5,
+  imageUrl: '/images/fryums/popCorn.png',
+  description: "Corn fryums that puff into crunchy delights. 100g bag.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Nilesh R.", rating: 5, comment: "Super crunchy and tasty!" },
+    { user: "Puja K.", rating: 4, comment: "Good snack, just a little bland." },
+    { user: "Sameer D.", rating: 5, comment: "Great alternative to popcorn." }
+  ]
+},
+'masala-moon-tomato': {
+  name: "Masala Moon Tomato",
+  price: 5,
+  imageUrl: '/images/fryums/masalaMoonTomato.png',
+  description: "Tangy tomato-flavored fryums. Round and crisp. 100g pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Alka S.", rating: 5, comment: "Tangy and crisp, really enjoyed it." },
+    { user: "Rajesh P.", rating: 4, comment: "Nice tomato flavor but could be spicier." },
+    { user: "Sunita M.", rating: 5, comment: "Perfect snack for evenings." }
+  ]
+},
+'salted-crunchy-pipes': {
+  name: "Salted Crunchy Pipes",
+  price: 5,
+  imageUrl: '/images/fryums/saltedCrunchyPipes.png',
+  description: "Plain salted tube fryums. Light snack, 120g per pouch.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Kamal T.", rating: 5, comment: "Light, crunchy, and perfectly salted." },
+    { user: "Rita N.", rating: 4, comment: "Good but wished for a bit more salt." },
+    { user: "Harsh V.", rating: 5, comment: "Ideal for a quick, light snack." }
+  ]
+},
+'plane': {
+  name: "Plane",
+  price: 5,
+  imageUrl: '/images/fryums/plane.png',
+  description: "Basic fryums without added flavor. Best for custom seasoning. 100g pack.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Maya K.", rating: 5, comment: "Perfect blank canvas for my own flavors." },
+    { user: "Nitin P.", rating: 4, comment: "Good quality but needs seasoning." },
+    { user: "Rakesh J.", rating: 5, comment: "Great for experimenting with spices." }
+  ]
+},
+'abcd': {
+  name: "ABCD",
+  price: 5,
+  imageUrl: '/images/fryums/abcd.png',
+  description: "Alphabet-shaped fryums, fun and educational. 100g packet.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Priya R.", rating: 5, comment: "Fun shapes and tasty crunch." },
+    { user: "Aakash S.", rating: 4, comment: "Good but a little oily." },
+    { user: "Nisha T.", rating: 5, comment: "My kids love learning with snacks!" }
+  ]
+},
+'white-crunchy-papad': {
+  name: "White Crunchy Papad",
+  price: 5,
+  imageUrl: '/images/fryums/whiteCrunchyPapad.png',
+  description: "Papad-style fryums with intense crunch. 120g pack, fry before serving.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Suresh M.", rating: 5, comment: "Super crunchy and delicious!" },
+    { user: "Anjali V.", rating: 4, comment: "Nice texture but a bit oily." },
+    { user: "Rahul K.", rating: 5, comment: "Perfect papad snack alternative." }
+  ]
+},
+'softi-triangle': {
+  name: "Softi Triangle",
+  price: 5,
+  imageUrl: '/images/fryums/softiTriangle.png',
+  description: "Soft bite-sized triangular fryums. Kid-friendly 100g packet.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Kiran P.", rating: 5, comment: "Soft and tasty, perfect for kids." },
+    { user: "Megha R.", rating: 4, comment: "Nice snack, could be crispier." },
+    { user: "Arjun S.", rating: 5, comment: "Great snack for lunchboxes." }
+  ]
+},
+'moon-chips-tomato': {
+  name: "Moon Chips Tomato",
+  price: 5,
+  imageUrl: '/images/fryums/moonChipsTomato.png',
+  description: "Tomato-flavored moon chips fryums. Ready to fry. 100g resealable pouch.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Nandini K.", rating: 5, comment: "Tangy and crispy, very addictive!" },
+    { user: "Rohit S.", rating: 4, comment: "Good flavor but a bit oily." },
+    { user: "Sneha T.", rating: 5, comment: "Perfect evening snack." }
+  ]
+},
 
+  'pasta-style-snacks-tomato': {
+    name: "Pasta Style Snacks Tomato",
+    price: 5,
+    imageUrl: '/images/fryums/pastaStyleSnacksTomato.png',
+    description: "Tomato-flavored pasta-style fryums. Fun and tasty. 100g pack.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+    reviews: [
+      { user: "Aditi M.", rating: 5, comment: "Loved the tomato flavor, very crunchy!" },
+      { user: "Vikas R.", rating: 4, comment: "Good snack but could be less oily." },
+      { user: "Kavya S.", rating: 5, comment: "Great for kids' snacks." }
+    ]
+  },
 //   Chips
 
 'cream-n-onion': {
-    name: "Cream 'n' Onion",
-    price: 5,
-    imageUrl: '/images/chips/creamNOnion.png',
-    reviews: [
-      { user: "Aarti", rating: 5, comment: "Creamy and flavorful!" },
-      { user: "Kunal", rating: 4, comment: "Loved the texture." },
-    ],
-  },
-  'magic-masala': {
-    name: "Magic Masala",
-    price: 5,
-    imageUrl: '/images/chips/magicMasala.png',
-    reviews: [
-      { user: "Rahul", rating: 5, comment: "Perfect masala punch!" },
-      { user: "Sneha", rating: 4, comment: "Spicy and addictive." },
-    ],
-  },
-  'piri-piri': {
-    name: "Piri Piri",
-    price: 5,
-    imageUrl: '/images/chips/piriPiri.png',
-    reviews: [
-      { user: "Nisha", rating: 5, comment: "Hot and tangy!" },
-      { user: "Aman", rating: 4, comment: "Nice heat level." },
-    ],
-  },
-  'plain-salted': {
-    name: "Plain Salted",
-    price: 5,
-    imageUrl: '/images/chips/plainSalted.png',
-    reviews: [
-      { user: "Ravi", rating: 4, comment: "Simple and classic." },
-      { user: "Isha", rating: 5, comment: "Always a favorite." },
-    ],
-  },
-  'spicy-treat': {
-    name: "Spicy Treat",
-    price: 5,
-    imageUrl: '/images/chips/spicyTreat.png',
-    reviews: [
-      { user: "Tina", rating: 5, comment: "Full of flavor!" },
-      { user: "Vikas", rating: 4, comment: "Bold and tasty." },
-    ],
-  },
-  'tom-chi': {
-    name: "Tom-Chi",
-    price: 5,
-    imageUrl: '/images/chips/tomChi.png',
-    reviews: [
-      { user: "Gaurav", rating: 5, comment: "Great tomato zing!" },
-      { user: "Kirti", rating: 4, comment: "Yummy and crisp." },
-    ],
-  },
-  'upvas-special-wafers': {
-    name: "Upvas Special Wafers",
-    price: 5,
-    imageUrl: '/images/chips/upvasSpecialWafers.png',
-    reviews: [
-      { user: "Rekha", rating: 5, comment: "Perfect for fasting!" },
-      { user: "Suresh", rating: 4, comment: "Light and satisfying." },
-    ],
-  }
+  name: "Cream 'n' Onion",
+  price: 5,
+  imageUrl: '/images/chips/creamNOnion.png',
+  description: "Classic potato wafers with creamy onion seasoning. 100g air-tight pack.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Anita D.", rating: 5, comment: "Perfect creamy onion flavor, very addictive!" },
+    { user: "Ravi S.", rating: 4, comment: "Good taste but a bit oily for my liking." },
+    { user: "Priya M.", rating: 5, comment: "Classic chips that never disappoint." }
+  ]
+},
+'magic-masala': {
+  name: "Magic Masala",
+  price: 5,
+  imageUrl: '/images/chips/magicMasala.png',
+  description: "Potato chips loaded with bold Indian spices. 90g packet.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Sanjay K.", rating: 5, comment: "Explosive flavors, great for spice lovers!" },
+    { user: "Meera T.", rating: 4, comment: "Strong spices, but delicious overall." },
+    { user: "Deepak R.", rating: 5, comment: "My go-to chips for evening snacks." }
+  ]
+},
+'piri-piri': {
+  name: "Piri Piri",
+  price: 5,
+  imageUrl: '/images/chips/piriPiri.png',
+  description: "Zesty piri-piri flavored chips. Great as a spicy snack. 100g per pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Kavita J.", rating: 5, comment: "Zesty and fiery, just how I like it." },
+    { user: "Anil M.", rating: 4, comment: "Good spice level, could be crispier." },
+    { user: "Rhea S.", rating: 5, comment: "Perfect balance of heat and crunch." }
+  ]
+},
+'plain-salted': {
+  name: "Plain Salted",
+  price: 5,
+  imageUrl: '/images/chips/plainSalted.png',
+  description: "Lightly salted, thin-sliced potato wafers. 100g pack.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Nitin P.", rating: 5, comment: "Simple and satisfying, love the thin slices." },
+    { user: "Sonali V.", rating: 4, comment: "Good snack, just the right saltiness." },
+    { user: "Harish T.", rating: 5, comment: "Classic salted chips done right." }
+  ]
+},
+'spicy-treat': {
+  name: "Spicy Treat",
+  price: 5,
+  imageUrl: '/images/chips/spicyTreat.png',
+  description: "Chips with a fiery masala punch. Bold flavor in a 90g pouch.This crunchy mix combines roasted papad (30g), flattened rice flakes (40g), peanuts (15g), and a hint of green chili powder (2g) and turmeric (1g) for a flavorful kick. A light snack with balanced heat and tang. Every 100g pack is carefully blended to preserve freshness and taste. Ideal as a tea-time snack or festive treat. The perfect balance of crunch, spice, and tradition.",
+  reviews: [
+    { user: "Ritu K.", rating: 5, comment: "Fiery and flavorful, my favorite spicy chips." },
+    { user: "Ajay S.", rating: 4, comment: "Great taste but a bit too spicy sometimes." },
+    { user: "Sneha L.", rating: 5, comment: "Perfect for those who love bold flavors." }
+  ]
+},
+'tom-chi': {
+  name: "Tom-Chi",
+  price: 5,
+  imageUrl: '/images/chips/tomChi.png',
+  description: "Tangy tomato chips that are both crispy and flavorful. 100g.This spicy sev is crafted with gram flour (70g), red chili powder (5g), ajwain (2g), and oil (23g) for deep frying. It’s fiery, crisp, and addictively good. Every 100g pack packs a punch and is a must for spice lovers. Add it to poha, chaats, or enjoy it as is. Its bold flavor lingers with every crunchy bite.",
+  reviews: [
+    { user: "Pooja M.", rating: 5, comment: "Tangy and crispy, loved the tomato zing!" },
+    { user: "Manish G.", rating: 4, comment: "Nice flavor, could be a bit more tangy." },
+    { user: "Kiran J.", rating: 5, comment: "Great snack with a refreshing twist." }
+  ]
+},
+'upvas-special-wafers': {
+  name: "Upvas Special Wafers",
+  price: 5,
+  imageUrl: '/images/chips/upvasSpecialWafers.png',
+  description: "Salted potato wafers made without onion/garlic. 80g fasting-friendly pack.This sweet treat is made from refined wheat flour (60g), sugar syrup (30g), and pure ghee (10g), deep-fried to golden perfection. Each diamond-shaped piece offers a delicate crunch with a sugary glaze. A 150g pack is enough to share, but tempting to finish solo. Popular during Diwali, it's a nostalgic bite of childhood. Light, festive, and satisfying with every bite.",
+  reviews: [
+    { user: "Seema R.", rating: 5, comment: "Perfect for fasting, tastes great without onion or garlic." },
+    { user: "Vikram P.", rating: 4, comment: "Good quality, mild flavor." },
+    { user: "Neha L.", rating: 5, comment: "Excellent snack for fasting days." }
+  ]
+},
 
 };

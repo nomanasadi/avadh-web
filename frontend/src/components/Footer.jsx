@@ -1,38 +1,48 @@
-import React from 'react'
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
+import React from 'react';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='bg-[#FFD347] w-full p-32 pb-5'>
-            <div className='flex justify-between'>
+        <div className='bg-[#FFD347] w-full px-6 md:px-12 lg:px-24 py-12'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
+                
+                {/* Logo & Social */}
                 <div>
-                    <img src="images/logo.png" alt="" className='w-[120px] h-auto' />
-                    <h2 className='text-red-500 text-4xl mb-3'>follow us</h2>
+                    <img src="images/logo.png" alt="Logo" className='w-[120px] h-auto mb-4' />
+                    <h2 className='text-red-500 text-2xl md:text-3xl mb-3'>Follow Us</h2>
                     <div className='flex space-x-3'>
-                        <div className='bg-red-500 w-9 h-9 rounded-full flex justify-center items-center'>
-                            <a href="#" className="text-white text-xl"><FaTwitter /></a>
-                        </div>
-                        <div className='bg-red-500 w-9 h-9 rounded-full flex justify-center items-center'>
-                            <a href="#" className="text-white text-xl"><FaFacebookF /></a>
-                        </div>
-                        <div className='bg-red-500 w-9 h-9 rounded-full flex justify-center items-center'>
-                            <a href="#" className="text-white text-xl"><FaInstagram /></a>
-                        </div>
+                        {[FaTwitter, FaFacebookF, FaInstagram].map((Icon, idx) => (
+                            <div key={idx} className='bg-red-500 w-9 h-9 rounded-full flex justify-center items-center'>
+                                <a href="#" className="text-white text-xl"><Icon /></a>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
+                {/* Contact Info */}
                 <div>
-                    <h1 className='text-red-500 text-4xl mb-5'>Contact Info</h1>
-                    <p className=''> Survey No 128, Pot No.1, <br />
-                        Opp. Super Tech Industry, 15 <br /> Km from Metoda Gidc (rajkot) <br /> Rajkot Kalavad road At Nikava <br /> Tal Kalavad. Dist. Jamnagar <br /> State. Gujarat</p>
-                    <div className='mb-3 mt-3'>
-                        <a href="">avadhsnacks@gmail.com</a>
+                    <h1 className='text-red-500 text-2xl md:text-3xl mb-4'>Contact Info</h1>
+                    <p className='text-sm leading-relaxed'>
+                        Survey No 128, Plot No.1, <br />
+                        Opp. Super Tech Industry, 15 Km from Metoda GIDC (Rajkot) <br />
+                        Rajkot Kalavad Road, At Nikava <br />
+                        Tal Kalavad, Dist. Jamnagar <br />
+                        Gujarat, India
+                    </p>
+                    <div className='mt-3'>
+                        <a href="mailto:avadhsnacks@gmail.com" className='block text-sm text-blue-800 hover:underline'>
+                            avadhsnacks@gmail.com
+                        </a>
+                        <a href="tel:+919999999999" className='block text-sm text-blue-800 hover:underline mt-1'>
+                            (+91) 99999 99999
+                        </a>
                     </div>
-                    <a href=""> (+91) 99999 99999</a>
                 </div>
+
+                {/* Product Categories */}
                 <div>
-                    <h1 className='text-red-500 text-4xl mb-5'>Product Category</h1>
-                    <ul className="pl-5 space-y-2 text-lg">
+                    <h1 className='text-red-500 text-2xl md:text-3xl mb-4'>Product Category</h1>
+                    <ul className="space-y-2 text-base text-gray-800">
                         <li>Namkeen</li>
                         <li>Fryums</li>
                         <li>Chips</li>
@@ -41,11 +51,12 @@ const Footer = () => {
                         <li>Imli</li>
                         <li>Papad</li>
                     </ul>
-
                 </div>
+
+                {/* Quick Links */}
                 <div>
-                <h1 className='text-red-500 text-4xl mb-5'>Quick Links</h1>
-                <ul className="pl-5 space-y-2 text-lg">
+                    <h1 className='text-red-500 text-2xl md:text-3xl mb-4'>Quick Links</h1>
+                    <ul className="space-y-2 text-base text-gray-800">
                         <li>About Us</li>
                         <li>Infrastructure</li>
                         <li>Contact Us</li>
@@ -54,13 +65,15 @@ const Footer = () => {
                         <li>Privacy Policy</li>
                         <li>Terms of Use</li>
                     </ul>
-
                 </div>
             </div>
-            <hr className='border-black opacity-25 mt-12 mb-5' />
-            <div className='text-center'>©2023 Copyright <span className='text-red-500 font-bold'>Prataap Snacks Limited</span> All Rights Reserved</div>
-        </div>
-    )
-}
 
-export default Footer
+            <hr className='border-black opacity-25 mt-12 mb-5' />
+            <div className='text-center text-sm'>
+                ©2023 Copyright <span className='text-red-500 font-bold'>Prataap Snacks Limited</span>. All Rights Reserved.
+            </div>
+        </div>
+    );
+};
+
+export default Footer;

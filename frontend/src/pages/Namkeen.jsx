@@ -9,7 +9,7 @@ const Namkeen = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/namkeen'); // full URL recommended
+        const res = await fetch('http://localhost:5000/api/namkeen');
         const data = await res.json();
         setCards(data);
       } catch (error) {
@@ -23,17 +23,22 @@ const Namkeen = () => {
   return (
     <>
       <Navbar />
+
+      {/* Banner */}
       <div>
-        <img src="images/slide-1.webp" alt="" />
-      </div>
-      <div className='max-w-7xl m-auto mt-7 p-8'>
-        <h1 className='text-4xl text-red-500 font-bold'>NAMKEEN</h1>
-        <p className='text-red-500 mt-2 text-xl'>Flavourful Namkeens for every craving and every occasion.</p>
-        <div className='w-48 border h-2 bg-red-500 mt-3'></div>
+        <img src="images/namjeenBanner.png" alt="Namkeen Banner" className="w-full h-auto object-cover" />
       </div>
 
-      <div className='mt-36'>
-        <div className='flex flex-wrap gap-16 max-w-7xl m-auto'>
+      {/* Section Title */}
+      <div className='max-w-7xl mx-auto mt-7 px-4 md:px-8'>
+        <h1 className='text-3xl md:text-4xl text-red-500 font-bold'>NAMKEEN</h1>
+        <p className='text-red-500 mt-2 text-lg md:text-xl'>Flavourful Namkeens for every craving and every occasion.</p>
+        <div className='w-36 md:w-48 h-1 bg-red-500 mt-3'></div>
+      </div>
+
+      {/* Card Grid */}
+      <div className='mt-16 px-4 md:px-8'>
+        <div className='flex flex-wrap justify-center gap-6 md:gap-10 lg:gap-16 max-w-7xl mx-auto'>
           {cards.map((card) => (
             <div key={card._id}>
               <Card
@@ -46,12 +51,10 @@ const Namkeen = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
-     
-     <div className='mt-20'>
-      <Footer/>
-     </div>
-
+      {/* Footer */}
+      <div className='mt-20'>
+        <Footer />
+      </div>
     </>
   );
 };

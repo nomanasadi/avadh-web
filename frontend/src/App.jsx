@@ -13,6 +13,9 @@ import ProductDetails from './pages/ProductDetails'
 import ApplyJob from './pages/ApplyJob'
 import EmployeeList from './pages/EmployeeList'
 import EmployeeDetail from './pages/EmployeeDetail'
+import ApplicantList from './pages/ApplicantList'
+import ApplicantDetail from './pages/ApplicantDetail'
+import ProductDescription from './pages/ProductDescription'
 
 const App = () => {
   return (
@@ -28,9 +31,12 @@ const App = () => {
       <Route exact path='/login' element={<Login/>}/>
       <Route exact path='/retailer' element={<Retailer/>}/>
       <Route path="/product/:slug" element={<ProductDetails/>} />
+      <Route path="/product/detail/:slug" element={<ProductDescription/>} />
       <Route exact path='/job' element={<ApplyJob/>}/>
       <Route path="/employee" element={<EmployeeList />} />
       <Route path="/employee/:id" element={<EmployeeDetail />} />
+      <Route path="/applicant" element={<ApplicantList />} />
+      <Route path="/applicant/:id" element={<ApplicantDetail />} />
      </Routes>
     </div>
   )

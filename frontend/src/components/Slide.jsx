@@ -8,20 +8,20 @@ import 'swiper/css/pagination';
 
 const HeroSlider = () => {
   return (
-    <div className="w-full h-[600px]">
+    <div className="w-full h-32 sm:h-[100px] md:h-[400px] lg:h-[600px]">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000 }}
         loop={true}
-        className="w-full h-full"
+        className="object-cover"
       >
         <SwiperSlide>
           <img
             src="images/slide-1.webp"
             alt="Slide 1"
-            className="w-full h-full object-cover"
+            className=" object-cover md:w-full"
           />
         </SwiperSlide>
 
@@ -29,7 +29,7 @@ const HeroSlider = () => {
           <img
             src="images/slide-2.webp"
             alt="Slide 2"
-            className="w-full h-full object-cover"
+            className=" object-cover md:w-full"
           />
         </SwiperSlide>
 
@@ -37,7 +37,7 @@ const HeroSlider = () => {
           <img
             src="images/slide-3.webp"
             alt="Slide 3"
-            className="w-full h-full object-cover"
+            className=" object-cover md:w-full"
           />
         </SwiperSlide>
       </Swiper>

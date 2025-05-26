@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Card = ({ name, imageUrl, availability }) => {
   return (
-    <div className='w-64 h-56 mt-28'>
+    <div className='w-64 h-56 mt-32'>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
         {/* <!-- Card --> */}
         <div class="relative w-64 h-56 bg-yellow-400 rounded-xl  group">
@@ -19,12 +19,21 @@ const Card = ({ name, imageUrl, availability }) => {
           <div className='bg-red-500 h-0.5 max-w-52 m-auto mt-[40%]'></div>
           <h2 className='text-center mt-3 mb-3 text-xl font-semibold'>{name}</h2>
           <h2 className='text-center'>Available for ₹ {availability}/-</h2>
-          <div className='relative mt-2'>
+          <div className=' mt-2 flex w-full justify-evenly '>
+          <div className=''>
+            <Link
+              to={`/product/detail/${name.toLowerCase().replace(/\s+/g, '-')}`}
+              className='absolute left-3 underline text-red-700'>
+              Detail
+            </Link>
+          </div>
+          <div>
             <Link
               to={`/product/${name.toLowerCase().replace(/\s+/g, '-')}`}
               className='absolute right-3 underline text-red-700'>
               Reviews
             </Link>
+          </div>
 
           </div>
         </div>

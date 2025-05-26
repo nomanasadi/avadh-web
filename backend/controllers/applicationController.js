@@ -22,4 +22,26 @@ const applyForJob = async (req, res) => {
   }
 };
 
-module.exports = { applyForJob };
+
+const getAllApplication = async (req, res) => {
+  try {
+    const applications = await Application.find();
+    res.json(applications);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+const getApplicationById = async (req, res) => {
+  try {
+    const application = await Application.findById(req.params.id);
+    if (!application) {
+      return res.status(404).json({ message: 'Application not found' });
+    }
+    res.json(application);
+  } catch (err) {
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
+module.exports = { applyForJob , getApplicationById , getAllApplication };
